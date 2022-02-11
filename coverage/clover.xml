@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644611477776" clover="3.2.0">
+  <project timestamp="1644611477776" name="All files">
+    <metrics statements="54" coveredstatements="50" conditionals="17" coveredconditionals="15" methods="6" coveredmethods="6" elements="77" coveredelements="71" complexity="0" loc="54" ncloc="54" packages="1" files="6" classes="6"/>
+    <file name="calculaDV.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\calculaDV.ts">
+      <metrics statements="20" coveredstatements="18" conditionals="7" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="43" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="43" type="stmt"/>
+      <line num="23" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="codigoDeBarras.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\codigoDeBarras.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+    </file>
+    <file name="dataVencimento.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\dataVencimento.ts">
+      <metrics statements="13" coveredstatements="11" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+    </file>
+    <file name="somaProduto.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\somaProduto.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="43" type="stmt"/>
+      <line num="3" count="43" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="6" count="35" type="stmt"/>
+    </file>
+    <file name="valorBoleto.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\valorBoleto.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+    </file>
+    <file name="verificaTipoBoleto.ts" path="C:\Users\lequi\Desktop\pandemia-dbserver-master-backend-src\backend\src\utils\verificaTipoBoleto.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
