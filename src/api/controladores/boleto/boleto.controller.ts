@@ -4,7 +4,7 @@ import { codigoDeBarras } from '../../../utils/codigoDeBarras';
 import { dataVencimento } from '../../../utils/dataVencimento';
 import { valorBoleto } from '../../../utils/valorBoleto';
 import { verificaDV } from '../../../utils/verificaDV';
-import { verificaQuantidade } from '../../../utils/verificaQuantidade';
+import { verificaLinhaDigitavel } from '../../../utils/verificaLinhaDigitavel';
 import { verificaTipoBoleto } from '../../../utils/verificaTipoBoleto';
 
 export async function buscaAtendimentos(req: Request, res: Response, next: NextFunction) {
@@ -12,7 +12,7 @@ export async function buscaAtendimentos(req: Request, res: Response, next: NextF
         let linhaDigitavel: String = req.params.linha_digitavel
         let tipoBoleto: String = verificaTipoBoleto(linhaDigitavel)
         let codigoBoleto: String = codigoDeBarras(linhaDigitavel, tipoBoleto)
-        verificaQuantidade(linhaDigitavel);
+        verificaLinhaDigitavel(linhaDigitavel);
         verificaDV(codigoBoleto, tipoBoleto);
         let informacoesBoleto: InfoBoleto = {
             barCode: codigoDeBarras(linhaDigitavel, tipoBoleto),
